@@ -1,0 +1,131 @@
+/* 
+    STUKTUR CSS: 
+    - ALL
+    - 1. HEAD
+    - 2. BODY
+
+*/
+
+/* ALL */
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: #1560bb;
+}
+hr {
+    border: 1px solid white;
+}
+.divinder-xl {
+    margin:150px 0;
+}
+.divinder-lg {
+    margin:100px 0;
+}
+.btn-warning {
+    background-color: #fede77;
+    color: #1560bb !important;
+    font-weight: 600;
+    border-radius: 45px;
+}
+.text-warning {
+    color: #fede77;
+}
+
+/* 1. HEAD */
+@media(max-width:576px) {
+    .nav-sm {
+        display: block !important;
+    }
+    .navbar-collapse {
+        padding: 10px;
+        background-color: #fff;
+        text-align: center;
+    }
+    .nav-link {
+        color: black !important;
+    }
+    .banner_head {
+        font-weight: 900;
+    }
+    .banner_desc {
+        font-weight: 600;
+    }
+    .disc {
+        text-decoration: line-through;
+        text-decoration-color: red !important;
+    }
+    .rp {
+        font-size: 10px;
+        bottom: 100px !important;
+    }
+    .banner_price {
+        font-weight: 700;
+        color: #fede77;
+    }
+}
+
+@media(min-width:577px) {
+    .nav-more {
+        background-color: #fede77;
+        height: 45px;
+        padding: 0 10px;
+    }
+    .link-more {
+        color: #1560bb !important;
+        font-weight: 600;
+    }
+    .banner_head {
+        font-weight: 900;
+    }
+    .banner_desc {
+        font-weight: 600;
+    }
+    .disc {
+        text-decoration: line-through;
+        text-decoration-color: red !important;
+    }
+    .rp {
+        font-size: 10px;
+        bottom: 100px !important;
+    }
+    .banner_price {
+        font-weight: 700;
+        color: #fede77;
+    }
+}
+
+/* 2. BODY */
+@media(max-width:576px) {
+    .d-mobile {
+        margin-top:50px;
+        display: block !important;
+    }
+    .body_text_h4 {
+       font-weight: 600;
+   }
+   .promo_head {
+       font-weight: 700;
+        color: #fede77;
+   }
+   .media_title{
+       font-weight: 600;
+   }
+}
+
+@media(min-width:577px) {
+   .body_text_h4 {
+       font-weight: 600;
+   }
+   .promo {
+       margin-left:25%;
+       /* padding: 0px 300px 0px 300px; */
+   }
+   .promo_head {
+       font-weight: 700;
+        color: #fede77;
+   }
+   .media_title{
+       font-weight: 600;
+   }
+}
